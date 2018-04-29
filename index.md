@@ -74,16 +74,18 @@
 
     2. S. Burckhardt, D. Leijen, M. Fahndrich, and M. Sagiv. [Eventually consistent transactions](https://www.microsoft.com/en-us/research/publication/eventually-consistent-transactions/). In ESOP, 2012.   **("operational")**
     
-    3. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    3. Matthieu Perrin, Achour Mostefaoui and Claude Jard. [Causal consistency: beyond memory](https://hal.archives-ouvertes.fr/hal-01286755/document). In PPoPP, 2016.  **("with sequential specifications")**
     
-    4. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
+    4. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    
+    5. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
 
-    5. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
+    6. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
 
-    6. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
+    7. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
 
-    7. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
-
+    8. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
+    
 2. Mixed Consistency.
 
     1. Matthew P. Milano and Andrew C. Myers. [MixT: A Language for Mixing Consistency in Geodistributed Transactions](http://www.cs.cornell.edu/andru/papers/mixt/mixt.pdf). In PLDI, 2018. 
@@ -126,4 +128,8 @@
 
 8. Ilya Sergey, James R. Wilcox and Zachary Tatlock. [Programming and proving with distributed protocols](https://homes.cs.washington.edu/~jrw12/disel.pdf). In POPL, 2018.
 
-9. 
+9. Ahmed Bouajjani, Constantin Enea, Rachid Guerraoui and Jad Hamza. [On verifying causal consistency](https://dl.acm.org/citation.cfm?id=3009888). In POPL, 2017.  **(Decidability, Model Checking)**
+
+10. Hengfeng Wei, Yu Huang and Jian Lu. [Specification and Implementation of Replicated List: The Jupiter Protocol Revisited](https://arxiv.org/pdf/1708.04754.pdf). Draft. 
+
+11. 
