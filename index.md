@@ -76,15 +76,17 @@
     
     3. Matthieu Perrin, Achour Mostefaoui and Claude Jard. [Causal consistency: beyond memory](https://hal.archives-ouvertes.fr/hal-01286755/document). In PPoPP, 2016.  **("with sequential specifications")**
     
-    4. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    4. Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike Spreitzer, Marvin Theimer, and Brent W. Welch. [Session guarantees for weakly consistent replicated data](http://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/SessionGuaranteesPDIS.pdf). In PDIS, 1994.
     
-    5. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
+    5. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    
+    6. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
 
-    6. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
+    7. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
 
-    7. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
+    8. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
 
-    8. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
+    9. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
     
 2. Mixed Consistency.
 
