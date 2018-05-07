@@ -30,15 +30,17 @@
     
     4. [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html). 
     
-    5. H.-G. Roh, M. Jeon, J.-S. Kim, and J. Lee. [Replicated Abstract Data Types: Building Blocks for Collaborative Applications](https://sites.google.com/site/myeongjae/). J. Parallel Distrib. Comput., 71(3), 2011.
+    5. [CRDT research](https://github.com/ipfs/research-CRDT).
     
-    6. S. Weiss, P. Urso, and P. Molli. [Logoot: A Scalable Optimistic Replication Algorithm for Collaborative Editing on P2P Networks](https://hal.inria.fr/inria-00432368/file/main.pdf). In ICDCS, 2009.
+    6. H.-G. Roh, M. Jeon, J.-S. Kim, and J. Lee. [Replicated Abstract Data Types: Building Blocks for Collaborative Applications](https://sites.google.com/site/myeongjae/). J. Parallel Distrib. Comput., 71(3), 2011.
+    
+    7. S. Weiss, P. Urso, and P. Molli. [Logoot: A Scalable Optimistic Replication Algorithm for Collaborative Editing on P2P Networks](https://hal.inria.fr/inria-00432368/file/main.pdf). In ICDCS, 2009.
    
-    7. Hagit Attiya, Sebastian Burckhardt, Alexey Gotsman, Adam Morrison, Hongseok Yang, and Marek Zawirski. [Specification and Complexity of Collaborative Text Editing](http://software.imdea.org/~gotsman/papers/editing-podc16.pdf). In PODC, 2016. 
+    8. Hagit Attiya, Sebastian Burckhardt, Alexey Gotsman, Adam Morrison, Hongseok Yang, and Marek Zawirski. [Specification and Complexity of Collaborative Text Editing](http://software.imdea.org/~gotsman/papers/editing-podc16.pdf). In PODC, 2016. 
     
-    8. A. Bieniusa, M. Zawirski, N. Preguic¸a, M. Shapiro, C. Baquero, V. Balegas and S. Duarte. [An optimized conflict-free replicated set](https://arxiv.org/pdf/1210.3368.pdf). Technical Report 8083, INRIA, 2012.
+    9. A. Bieniusa, M. Zawirski, N. Preguic¸a, M. Shapiro, C. Baquero, V. Balegas and S. Duarte. [An optimized conflict-free replicated set](https://arxiv.org/pdf/1210.3368.pdf). Technical Report 8083, INRIA, 2012.
 
-    9. Y. Sovran, R. Power, M. K. Aguilera, and J. Li. [Transactional Storage for Geo-Replicated Systems](https://dl.acm.org/citation.cfm?id=2043592). In SOSP, 2011.
+    10. Y. Sovran, R. Power, M. K. Aguilera, and J. Li. [Transactional Storage for Geo-Replicated Systems](https://dl.acm.org/citation.cfm?id=2043592). In SOSP, 2011.
     
 4. Possibly Non-Commutative Replicated Data Types.
 
@@ -74,19 +76,23 @@
 
     2. S. Burckhardt, D. Leijen, M. Fahndrich, and M. Sagiv. [Eventually consistent transactions](https://www.microsoft.com/en-us/research/publication/eventually-consistent-transactions/). In ESOP, 2012.   **("operational")**
     
-    3. Matthieu Perrin, Achour Mostefaoui and Claude Jard. [Causal consistency: beyond memory](https://hal.archives-ouvertes.fr/hal-01286755/document). In PPoPP, 2016.  **("with sequential specifications")**
+    3. Matthieu Perrin, Achour Mostefaoui and Claude Jard. [Causal consistency: beyond memory](https://hal.archives-ouvertes.fr/hal-01286755/document). In PPoPP, 2016.  **("sequential specifications")**
     
-    4. Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike Spreitzer, Marvin Theimer, and Brent W. Welch. [Session guarantees for weakly consistent replicated data](http://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/SessionGuaranteesPDIS.pdf). In PDIS, 1994.
+    4. Radha Jagadeesan and James Riely. [From Sequential Specifications to Eventual Consistency](http://fpl.cs.depaul.edu/jriely/papers/2015-ec.pdf). In ICAP, 2015. **("sequential specifications" and "abstraction theorem")**
     
-    5. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    5. Radha Jagadeesan and James Riely. [Eventual Consistency for CRDTs](http://fpl.cs.depaul.edu/jriely/papers/2018-esop.pdf). In ESOP, 2018. **("sequential specifications")**
     
-    6. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
+    6. Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike Spreitzer, Marvin Theimer, and Brent W. Welch. [Session guarantees for weakly consistent replicated data](http://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/SessionGuaranteesPDIS.pdf). In PDIS, 1994.
+    
+    7. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    
+    8. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
 
-    7. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
+    9. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
 
-    8. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
+    10. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
 
-    9. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
+    11. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
     
 2. Mixed Consistency.
 
@@ -120,20 +126,26 @@
 
 3. Álvaro García-Pérez, Alexey Gotsman, Yuri Meshman, and Ilya Sergey. [Paxos consensus, deconstructed and abstracted](http://software.imdea.org/~gotsman/papers/paxos-esop18.pdf). In ESOP, 2018. 
 
-4. James R. Wilcox, Doug Woos, Pavel Panchekha, Zachary Tatlock, Xi Wang, Michael D. Ernst and Thomas Anderson. [Verdi: A Framework for Implementing and Formally Verifying Distributed Systems](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf). In PLDI, 2015. 
+4. 	Victor B. F. Gomes, Martin Kleppmann, Dominic P. Mulligan and Alastair R. Beresford. [Verifying Strong Eventual Consistency in Distributed Systems](http://martin.kleppmann.com/papers/crdt-isabelle-oopsla17.pdf). In OOPSLA, 2017. **(CRDTs)**
 
-5. Doug Woos, James R. Wilcox, Steve Anton, Zachary Tatlock, Michael D. Ernst and Thomas Anderson. [Planning for Change in a Formal Verification of the Raft Consensus Protocol](https://verdi.uwplse.org/raft-proof.pdf). In CPP, 2016. 
+5. Mohsen Lesani, Christian J. Bell and Adam Chlipala. [Chapar: Certified Causally Consistent Distributed Key-Value Stores](http://people.csail.mit.edu/lesani/companion/popl16/POPL16.pdf). In POPL, 2016. 
 
-6. C. Hawblitzel et al. [IronFleet: Proving Practical Distributed Systems Correct](https://web.eecs.umich.edu/~manosk/assets/papers/ironfleet.pdf). In SOSP, 2015. 
+6. James R. Wilcox, Doug Woos, Pavel Panchekha, Zachary Tatlock, Xi Wang, Michael D. Ernst and Thomas Anderson. [Verdi: A Framework for Implementing and Formally Verifying Distributed Systems](https://homes.cs.washington.edu/~ztatlock/pubs/verdi-wilcox-pldi15.pdf). In PLDI, 2015. 
 
-7. Vincent Rahli, Ivana Vukotic, Marcus Völp and Paulo Esteves-Verissimo. [Velisarios: Byzantine Fault-Tolerant Protocols Powered by Coq](https://link.springer.com/chapter/10.1007/978-3-319-89884-1_22). In ESOP, 2018. 
+7. Doug Woos, James R. Wilcox, Steve Anton, Zachary Tatlock, Michael D. Ernst and Thomas Anderson. [Planning for Change in a Formal Verification of the Raft Consensus Protocol](https://verdi.uwplse.org/raft-proof.pdf). In CPP, 2016. 
 
-8. Pedro Fonseca, Kaiyuan Zhang, Xi Wang and Arvind Krishnamurthy. [An Empirical Study on the Correctness of Formally Verified Distributed Systems](). In EuroSys, 2017. 
+8. C. Hawblitzel et al. [IronFleet: Proving Practical Distributed Systems Correct](https://web.eecs.umich.edu/~manosk/assets/papers/ironfleet.pdf). In SOSP, 2015. 
 
-9. Ilya Sergey, James R. Wilcox and Zachary Tatlock. [Programming and proving with distributed protocols](https://homes.cs.washington.edu/~jrw12/disel.pdf). In POPL, 2018.
+9. Vincent Rahli, Ivana Vukotic, Marcus Völp and Paulo Esteves-Verissimo. [Velisarios: Byzantine Fault-Tolerant Protocols Powered by Coq](https://link.springer.com/chapter/10.1007/978-3-319-89884-1_22). In ESOP, 2018. 
 
-10. Ahmed Bouajjani, Constantin Enea, Rachid Guerraoui and Jad Hamza. [On verifying causal consistency](https://dl.acm.org/citation.cfm?id=3009888). In POPL, 2017.  **(Decidability, Model Checking)**
+10. Pedro Fonseca, Kaiyuan Zhang, Xi Wang and Arvind Krishnamurthy. [An Empirical Study on the Correctness of Formally Verified Distributed Systems](https://homes.cs.washington.edu/~pfonseca/papers/eurosys2017-dsbugs.pdf). In EuroSys, 2017. 
 
-11. Hengfeng Wei, Yu Huang and Jian Lu. [Specification and Implementation of Replicated List: The Jupiter Protocol Revisited](https://arxiv.org/pdf/1708.04754.pdf). Draft. 
+11. Ilya Sergey, James R. Wilcox and Zachary Tatlock. [Programming and proving with distributed protocols](https://homes.cs.washington.edu/~jrw12/disel.pdf). In POPL, 2018.
 
-12. 
+12. Ahmed Bouajjani, Constantin Enea and Jad Hamza. [Verifying Eventual Consistency of Optimistic Replication Systems](https://www.irif.fr/~cenea/papers/popl2014.pdf). In POPL, 2014. **(Model Checking)**
+
+13. Ahmed Bouajjani, Constantin Enea, Rachid Guerraoui and Jad Hamza. [On verifying causal consistency](https://dl.acm.org/citation.cfm?id=3009888). In POPL, 2017.  **(Decidability, Model Checking)**
+
+14. Hengfeng Wei, Yu Huang and Jian Lu. [Specification and Implementation of Replicated List: The Jupiter Protocol Revisited](https://arxiv.org/pdf/1708.04754.pdf). Draft. 
+
+15. 
