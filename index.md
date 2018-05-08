@@ -72,8 +72,8 @@
 
 1. Eventual Consistency.
 
-    1. Paolo Viotti and Marko Vukolić. [Consistency in Non-Transactional Distributed Storage Systems](http://www.vukolic.com/consistency-survey.pdf). ACM Computing Surveys, Volume 49, Issue 1, Article No. 19, July 2016.  
-
+    1. Paolo Viotti and Marko Vukolić. [Consistency in Non-Transactional Distributed Storage Systems](http://www.vukolic.com/consistency-survey.pdf). ACM Computing Surveys, Volume 49, Issue 1, Article No. 19, July 2016. **(Survey)** 
+    
     2. Sebastian Burckhardt. [Principles of Eventual Consistency](https://www.microsoft.com/en-us/research/publication/principles-of-eventual-consistency/). Foundations and Trends in Programming Languages, vol. 1, no. 1-2, pp. 1–150, 2014.
 
     3. S. Burckhardt, D. Leijen, M. Fahndrich, and M. Sagiv. [Eventually consistent transactions](https://www.microsoft.com/en-us/research/publication/eventually-consistent-transactions/). In ESOP, 2012.   **("operational")**
