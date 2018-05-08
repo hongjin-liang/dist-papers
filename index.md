@@ -72,27 +72,29 @@
 
 1. Eventual Consistency.
 
-    1. Sebastian Burckhardt. [Principles of Eventual Consistency](https://www.microsoft.com/en-us/research/publication/principles-of-eventual-consistency/). Foundations and Trends in Programming Languages, vol. 1, no. 1-2, pp. 1–150, 2014.
+    1. Paolo Viotti and Marko Vukolić. [Consistency in Non-Transactional Distributed Storage Systems](http://www.vukolic.com/consistency-survey.pdf). ACM Computing Surveys, Volume 49, Issue 1, Article No. 19, July 2016.  
 
-    2. S. Burckhardt, D. Leijen, M. Fahndrich, and M. Sagiv. [Eventually consistent transactions](https://www.microsoft.com/en-us/research/publication/eventually-consistent-transactions/). In ESOP, 2012.   **("operational")**
-    
-    3. Matthieu Perrin, Achour Mostefaoui and Claude Jard. [Causal consistency: beyond memory](https://hal.archives-ouvertes.fr/hal-01286755/document). In PPoPP, 2016.  **("sequential specifications")**
-    
-    4. Radha Jagadeesan and James Riely. [From Sequential Specifications to Eventual Consistency](http://fpl.cs.depaul.edu/jriely/papers/2015-ec.pdf). In ICAP, 2015. **("sequential specifications" and "abstraction theorem")**
-    
-    5. Radha Jagadeesan and James Riely. [Eventual Consistency for CRDTs](http://fpl.cs.depaul.edu/jriely/papers/2018-esop.pdf). In ESOP, 2018. **("sequential specifications")**
-    
-    6. Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike Spreitzer, Marvin Theimer, and Brent W. Welch. [Session guarantees for weakly consistent replicated data](http://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/SessionGuaranteesPDIS.pdf). In PDIS, 1994.
-    
-    7. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
-    
-    8. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
+    2. Sebastian Burckhardt. [Principles of Eventual Consistency](https://www.microsoft.com/en-us/research/publication/principles-of-eventual-consistency/). Foundations and Trends in Programming Languages, vol. 1, no. 1-2, pp. 1–150, 2014.
 
-    9. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
+    3. S. Burckhardt, D. Leijen, M. Fahndrich, and M. Sagiv. [Eventually consistent transactions](https://www.microsoft.com/en-us/research/publication/eventually-consistent-transactions/). In ESOP, 2012.   **("operational")**
+    
+    4. Matthieu Perrin, Achour Mostefaoui and Claude Jard. [Causal consistency: beyond memory](https://hal.archives-ouvertes.fr/hal-01286755/document). In PPoPP, 2016.  **("sequential specifications")**
+    
+    5. Radha Jagadeesan and James Riely. [From Sequential Specifications to Eventual Consistency](http://fpl.cs.depaul.edu/jriely/papers/2015-ec.pdf). In ICAP, 2015. **("sequential specifications" and "abstraction theorem")**
+    
+    6. Radha Jagadeesan and James Riely. [Eventual Consistency for CRDTs](http://fpl.cs.depaul.edu/jriely/papers/2018-esop.pdf). In ESOP, 2018. **("sequential specifications")**
+    
+    7. Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike Spreitzer, Marvin Theimer, and Brent W. Welch. [Session guarantees for weakly consistent replicated data](http://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/SessionGuaranteesPDIS.pdf). In PDIS, 1994.
+    
+    8. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
+    
+    9. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
 
-    10. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
+    10. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
 
-    11. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
+    11. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
+
+    12. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
     
 2. Mixed Consistency.
 
