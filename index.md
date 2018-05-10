@@ -150,4 +150,6 @@
 
 14. Hengfeng Wei, Yu Huang and Jian Lu. [Specification and Implementation of Replicated List: The Jupiter Protocol Revisited](https://arxiv.org/pdf/1708.04754.pdf). Draft. 
 
-15. 
+15. Edgar Pek, Pranav Gag, Muntasir Rahman, Indranil Gupta and P. Madhusudan. [Certified Program Models for Eventual Consistency](http://madhu.cs.illinois.edu/evcons.pdf). Draft, 2018. 
+
+16. 
