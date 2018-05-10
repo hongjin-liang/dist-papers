@@ -35,12 +35,10 @@
     6. H.-G. Roh, M. Jeon, J.-S. Kim, and J. Lee. [Replicated Abstract Data Types: Building Blocks for Collaborative Applications](https://sites.google.com/site/myeongjae/). J. Parallel Distrib. Comput., 71(3), 2011.
     
     7. S. Weiss, P. Urso, and P. Molli. [Logoot: A Scalable Optimistic Replication Algorithm for Collaborative Editing on P2P Networks](https://hal.inria.fr/inria-00432368/file/main.pdf). In ICDCS, 2009.
-   
-    8. Hagit Attiya, Sebastian Burckhardt, Alexey Gotsman, Adam Morrison, Hongseok Yang, and Marek Zawirski. [Specification and Complexity of Collaborative Text Editing](http://software.imdea.org/~gotsman/papers/editing-podc16.pdf). In PODC, 2016. 
     
-    9. A. Bieniusa, M. Zawirski, N. Preguic¸a, M. Shapiro, C. Baquero, V. Balegas and S. Duarte. [An optimized conflict-free replicated set](https://arxiv.org/pdf/1210.3368.pdf). Technical Report 8083, INRIA, 2012.
+    8. A. Bieniusa, M. Zawirski, N. Preguic¸a, M. Shapiro, C. Baquero, V. Balegas and S. Duarte. [An optimized conflict-free replicated set](https://arxiv.org/pdf/1210.3368.pdf). Technical Report 8083, INRIA, 2012.
 
-    10. Y. Sovran, R. Power, M. K. Aguilera, and J. Li. [Transactional Storage for Geo-Replicated Systems](https://dl.acm.org/citation.cfm?id=2043592). In SOSP, 2011.
+    9. Y. Sovran, R. Power, M. K. Aguilera, and J. Li. [Transactional Storage for Geo-Replicated Systems](https://dl.acm.org/citation.cfm?id=2043592). In SOSP, 2011.
     
 4. Possibly Non-Commutative Replicated Data Types.
 
@@ -89,12 +87,14 @@
     8. A. Fekete, D. Gupta, V. Luchangco, N. Lynch, and A. Shvartsman. [Eventually-serializable data services](https://groups.csail.mit.edu/tds/papers/Lynch/podc96-esds.pdf). In PODC, 1996.
     
     9. Lucas Brutschy, Dimitar Dimitrov, Peter Müller, and Martin Vechev. [Serializability for Eventual Consistency: Criterion, Analysis, and Applications](https://www.sri.inf.ethz.ch/papers/popl17-serializability.pdf). In POPL, 2017. 
+   
+    10. Hagit Attiya, Sebastian Burckhardt, Alexey Gotsman, Adam Morrison, Hongseok Yang, and Marek Zawirski. [Specification and Complexity of Collaborative Text Editing](http://software.imdea.org/~gotsman/papers/editing-podc16-ext.pdf). In PODC, 2016. **(specifications for the list object)**
 
-    10. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
+    11. Andrea Cerone, Alexey Gotsman, and Hongseok Yang. [Algebraic laws for weak consistency](http://software.imdea.org/~gotsman/papers/vis2rf-concur17.pdf). In CONCUR, 2017. 
 
-    11. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
+    12. Alexey Gotsman and Sebastian Burckhardt. [Consistency models with global operation sequencing and their composition](http://software.imdea.org/~gotsman/papers/gsp-disc17.pdf). In DISC, 2017. 
 
-    12. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
+    13. Alexey Gotsman and Hongseok Yang. [Composite replicated data types](http://software.imdea.org/~gotsman/papers/compos-esop15.pdf). In ESOP, 2015. 
     
 2. Mixed Consistency.
 
