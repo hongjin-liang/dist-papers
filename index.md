@@ -152,4 +152,12 @@
 
 15. Edgar Pek, Pranav Gag, Muntasir Rahman, Indranil Gupta and P. Madhusudan. [Certified Program Models for Eventual Consistency](http://madhu.cs.illinois.edu/evcons.pdf). Draft, 2018. 
 
-16. 
+16. Gowtham Kaki, Kapil Earanky, KC Sivaramakrishnan, and Suresh Jagannathan. [Safe Replication through Bounded Concurrency Verification](https://dl.acm.org/doi/pdf/10.1145/3276534). In OOPSLA, 2018. **(Automatic bounded verification based on symbolic execution)**
+
+17. Gowtham Kaki, Kartik Nagar, Mahsa Najafzadeh, and Suresh Jagannathan. [Alone Together: Compositional Reasoning and Inference for Weak Isolation](https://dl.acm.org/doi/pdf/10.1145/3158115). In POPL, 2018. 
+
+18. Kartik Nagar and Suresh Jagannathan. [Automated Parameterized Verification of CRDTs](https://www.cs.purdue.edu/homes/suresh/papers/cav19.pdf). In CAV, 2019. 
+
+19. 
+
+20. 
