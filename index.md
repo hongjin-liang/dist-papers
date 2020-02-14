@@ -140,24 +140,26 @@
 
 9. Vincent Rahli, Ivana Vukotic, Marcus Völp and Paulo Esteves-Verissimo. [Velisarios: Byzantine Fault-Tolerant Protocols Powered by Coq](https://link.springer.com/chapter/10.1007/978-3-319-89884-1_22). In ESOP, 2018. 
 
-10. Pedro Fonseca, Kaiyuan Zhang, Xi Wang and Arvind Krishnamurthy. [An Empirical Study on the Correctness of Formally Verified Distributed Systems](https://homes.cs.washington.edu/~pfonseca/papers/eurosys2017-dsbugs.pdf). In EuroSys, 2017. 
+10. Oded Padon, Giuliano Losa, Mooly Sagiv, and Sharon Shoham. [Paxos Made EPR: Decidable Reasoning About Distributed Protocols](https://doi.org/10.1145/3140568). In OOPSLA, 2017. 
 
-11. Ilya Sergey, James R. Wilcox and Zachary Tatlock. [Programming and proving with distributed protocols](https://homes.cs.washington.edu/~jrw12/disel.pdf). In POPL, 2018.
+11. Oded Padon, Kenneth L. McMillan, Aurojit Panda, Mooly Sagiv, and Sharon Shoham. [Ivy: Safety Verification by Interactive Generalization](https://doi.org/10.1145/2908080.2908118). In PLDI, 2016. 
 
-12. Ahmed Bouajjani, Constantin Enea and Jad Hamza. [Verifying Eventual Consistency of Optimistic Replication Systems](https://www.irif.fr/~cenea/papers/popl2014.pdf). In POPL, 2014. **(Model Checking)**
+12. Pedro Fonseca, Kaiyuan Zhang, Xi Wang and Arvind Krishnamurthy. [An Empirical Study on the Correctness of Formally Verified Distributed Systems](https://homes.cs.washington.edu/~pfonseca/papers/eurosys2017-dsbugs.pdf). In EuroSys, 2017. 
 
-13. Ahmed Bouajjani, Constantin Enea, Rachid Guerraoui and Jad Hamza. [On verifying causal consistency](https://dl.acm.org/citation.cfm?id=3009888). In POPL, 2017.  **(Decidability, Model Checking)**
+13. Ilya Sergey, James R. Wilcox and Zachary Tatlock. [Programming and proving with distributed protocols](https://homes.cs.washington.edu/~jrw12/disel.pdf). In POPL, 2018.
 
-14. Hengfeng Wei, Yu Huang and Jian Lu. [Specification and Implementation of Replicated List: The Jupiter Protocol Revisited](https://arxiv.org/pdf/1708.04754.pdf). Draft. 
+14. Ahmed Bouajjani, Constantin Enea and Jad Hamza. [Verifying Eventual Consistency of Optimistic Replication Systems](https://www.irif.fr/~cenea/papers/popl2014.pdf). In POPL, 2014. **(Model Checking)**
 
-15. Edgar Pek, Pranav Gag, Muntasir Rahman, Indranil Gupta and P. Madhusudan. [Certified Program Models for Eventual Consistency](http://madhu.cs.illinois.edu/evcons.pdf). Draft, 2018. 
+15. Ahmed Bouajjani, Constantin Enea, Rachid Guerraoui and Jad Hamza. [On verifying causal consistency](https://dl.acm.org/citation.cfm?id=3009888). In POPL, 2017.  **(Decidability, Model Checking)**
 
-16. Gowtham Kaki, Kapil Earanky, KC Sivaramakrishnan, and Suresh Jagannathan. [Safe Replication through Bounded Concurrency Verification](https://dl.acm.org/doi/pdf/10.1145/3276534). In OOPSLA, 2018. **(Automatic bounded verification based on symbolic execution)**
+16. Hengfeng Wei, Yu Huang and Jian Lu. [Specification and Implementation of Replicated List: The Jupiter Protocol Revisited](https://arxiv.org/pdf/1708.04754.pdf). Draft. 
 
-17. Gowtham Kaki, Kartik Nagar, Mahsa Najafzadeh, and Suresh Jagannathan. [Alone Together: Compositional Reasoning and Inference for Weak Isolation](https://dl.acm.org/doi/pdf/10.1145/3158115). In POPL, 2018. 
+17. Edgar Pek, Pranav Gag, Muntasir Rahman, Indranil Gupta and P. Madhusudan. [Certified Program Models for Eventual Consistency](http://madhu.cs.illinois.edu/evcons.pdf). Draft, 2018. 
 
-18. Kartik Nagar and Suresh Jagannathan. [Automated Parameterized Verification of CRDTs](https://www.cs.purdue.edu/homes/suresh/papers/cav19.pdf). In CAV, 2019. 
+18. Gowtham Kaki, Kapil Earanky, KC Sivaramakrishnan, and Suresh Jagannathan. [Safe Replication through Bounded Concurrency Verification](https://dl.acm.org/doi/pdf/10.1145/3276534). In OOPSLA, 2018. **(Automatic bounded verification based on symbolic execution)**
 
-19. 
+19. Gowtham Kaki, Kartik Nagar, Mahsa Najafzadeh, and Suresh Jagannathan. [Alone Together: Compositional Reasoning and Inference for Weak Isolation](https://dl.acm.org/doi/pdf/10.1145/3158115). In POPL, 2018. 
 
-20. 
+20. Kartik Nagar and Suresh Jagannathan. [Automated Parameterized Verification of CRDTs](https://www.cs.purdue.edu/homes/suresh/papers/cav19.pdf). In CAV, 2019. 
+
+21. 
